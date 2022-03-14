@@ -17,7 +17,7 @@ public class AdvancedWeek {
     public void printDays() {
         System.out.println( index + ": " + day_1 + ",\n" + (index + 1) + ": " + day_2 + ",\n" + (index + 2) + ": " + day_3 + ",\n"
                             + (index + 3) + ": " + day_4 + ",\n" + (index + 4) + ": " + day_5 + ",\n" +(index + 5) + ": " + day_6 
-                            + ",\n" + (index + 6) + ": " + day_7 + “.”);
+                            + ",\n" + (index + 6) + ": " + day_7 + ".");
         
     }
 }

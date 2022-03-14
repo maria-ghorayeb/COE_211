@@ -9,12 +9,12 @@ public class Calculator {
     public Calculator() {
         // Get user input
         Scanner scanCalc = new Scanner(System.in);
-        System.out.printl("Input the first number: ");
+        System.out.println("Input the first number: ");
         num1 = scanCalc.nextInt();
-        scan.nextLine();
-        System.out.println("Input the operator: ")
+        scanCalc.nextLine();
+        System.out.println("Input the operator: ");
         operator = scanCalc.nextLine();
-        System.out.println("Input the second number: ")
+        System.out.println("Input the second number: ");
         num2 = scanCalc.nextInt();
 
         scanCalc.close();
@@ -29,14 +29,14 @@ public class Calculator {
                 System.out.println(add(num1, num2));
                 break;
             case "-" :
-                    System.out.println(substract(num1, num2));
-                    break;
+                System.out.println(substract(num1, num2));
+                break;
             case "*":
-                    System.out.println(multiply(num1, num2));
-                    break;
+                System.out.println(multiply(num1, num2));
+                break;
             case "/" :
-                    System.out.println(divide(num1, num2));
-                    break;
+                System.out.println(divide(num1, num2));
+                break;
 
         }
     }
@@ -47,7 +47,7 @@ public class Calculator {
          
     }
 
-    public String subtract(int a, int b) {
+    public String substract(int a, int b) {
         result = a - b;
         return a + "-" + b + "=" + result;
     }
